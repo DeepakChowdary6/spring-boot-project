@@ -1,0 +1,15 @@
+package com.example.inventoryservice.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@RequiredArgsConstructor
+public class InventoryResponse {
+       private String skuCode;
+       private boolean isInStock;
+}
